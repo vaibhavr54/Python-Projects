@@ -1,0 +1,1 @@
+Repository containing Python projects with graphical user interfaces. The projects showcase various applications built using Tkinter, offering interactive and user-friendly experiences. One project features a complex game interface with multiple boards, while another provides a calendar view with options for different months and years.
