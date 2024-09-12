@@ -13,6 +13,7 @@ Pillow: For handling image files.
 Display Calendar: Shows the calendar for the selected month and year.
 
 Clear: Clears the displayed calendar from the view.
+
 Exit: Closes the application.
 
 ## How to Run
