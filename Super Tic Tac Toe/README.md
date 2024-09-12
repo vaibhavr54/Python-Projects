@@ -22,7 +22,4 @@ Running the script is straightforward! Follow the steps below:
 python tic_tac_toe.py
 ```
 
-## Author
-Vaibhav Rakshe
-
 ---
