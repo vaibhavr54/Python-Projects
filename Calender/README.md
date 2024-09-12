@@ -22,7 +22,4 @@ Running the script is straightforward! Follow the steps below:
 python calender.py
 ```
 
-## Author
-Vaibhav Rakshe
-
 ---
