@@ -6,10 +6,12 @@ A Tkinter-based calendar application that allows users to view the calendar for 
 
 ## Library Used
 tkinter: For creating the graphical user interface (GUI).
+
 Pillow: For handling image files.
 
 ## Features
 Display Calendar: Shows the calendar for the selected month and year.
+
 Clear: Clears the displayed calendar from the view.
 Exit: Closes the application.
 
