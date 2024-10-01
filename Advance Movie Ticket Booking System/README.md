@@ -21,7 +21,7 @@ A user-friendly movie ticket booking application that allows users to register, 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/movie_ticket_booking_system.git
+   git clone https://github.com/vaibhvr54/Python-Mini-Projects/mAdvance Movie Ticket Booking System.git
    ```
 2. Install required packages:
    ```bash
