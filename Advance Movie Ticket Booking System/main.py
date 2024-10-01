@@ -6,9 +6,9 @@ from tkinter import messagebox, StringVar, OptionMenu
 import re  # Import regex for password validation
 
 # Twilio Configuration
-account_sid = 'ACe02ead1b1bfe04f2ec543e01fc7c996d'
-auth_token = '6e897da46c8ad59261657d24b938a873'
-twilio_number = 'whatsapp:+14155238886'
+account_sid = ['YOUR_TWILIO_SID']
+auth_token = ['YOUR_TOKEN']
+twilio_number = ['TWILIO_SANDBOX_WHATSAPP_NO.']
 
 # OTP storage
 otp_dict = {}
