@@ -6,9 +6,9 @@ from tkinter import messagebox, StringVar, OptionMenu
 import re  # Import regex for password validation
 
 # Twilio Configuration
-account_sid = ['YOUR_TWILIO_SID']
-auth_token = ['YOUR_TOKEN']
-twilio_number = ['TWILIO_SANDBOX_WHATSAPP_NO.']
+account_sid = 'YOUR SID'
+auth_token = 'YOUR AUTH_TOKEN'
+twilio_number = 'SANDBOX WHATSAPP NO.'
 
 # OTP storage
 otp_dict = {}
@@ -147,11 +147,19 @@ def otp_verification_window(user):
 # Function to handle registration window
 def register_window():
     def register():
-        username = username_entry.get()
-        password = password_entry.get()
-        phone = phone_entry.get()
+        username = username_entry.get().strip()  # Strip whitespace
+        password = password_entry.get().strip()  # Strip whitespace
+        phone = phone_entry.get().strip()  # Strip whitespace
 
-        # Validate username and password
+        # Validate username, password, and phone number
+        if not username:
+            messagebox.showerror("Error", "Username cannot be empty.")
+            return
+        
+        if not password:
+            messagebox.showerror("Error", "Password cannot be empty.")
+            return
+        
         if not is_valid_username(username):
             messagebox.showerror("Error", "Username must not start with a numeric value.")
             return
@@ -160,6 +168,16 @@ def register_window():
             messagebox.showerror("Error", "Password must be at least 8 characters long and include a special symbol.")
             return
 
+        # Validate phone number
+        if not phone:
+            messagebox.showerror("Error", "Phone number cannot be empty.")
+            return
+
+        if not re.match(r"^\d{10}$", phone):
+            messagebox.showerror("Error", "Phone number must be 10 digits.")
+            return
+
+        # Proceed to register if all validations pass
         if register_user(username, password, phone):
             messagebox.showinfo("Success", "Registration successful!")
             reg_win.destroy()
@@ -186,10 +204,18 @@ def register_window():
 # Function to handle login process
 def login_window():
     def login():
-        username = username_entry.get()
-        password = password_entry.get()
+        username = username_entry.get().strip()  # Strip whitespace
+        password = password_entry.get().strip()  # Strip whitespace
 
         # Validate username and password
+        if not username:
+            messagebox.showerror("Error", "Username cannot be empty.")
+            return
+        
+        if not password:
+            messagebox.showerror("Error", "Password cannot be empty.")
+            return
+        
         if not is_valid_username(username):
             messagebox.showerror("Error", "Username must not start with a numeric value.")
             return
