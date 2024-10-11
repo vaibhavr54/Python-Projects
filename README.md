@@ -34,13 +34,18 @@ Welcome to my repository of Python projects! This repository showcases a collect
 
 **Technologies Used**:
 Python
+
 MongoDB (for database management)
+
 PyMongo (for database interaction)
+
 Scikit-learn (for machine learning model)
 
 **Key Features**:
 Prediction of MongoDB query execution time using a trained machine learning model.
+
 Generation of performance improvement suggestions, such as adding indexes.
+
 Analysis of query metrics including query length, documents examined, and index usage.
 
 ## Installation
