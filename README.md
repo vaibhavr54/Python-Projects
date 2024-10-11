@@ -29,19 +29,6 @@ Welcome to my repository of Python projects! This repository showcases a collect
   - Tkinter
   - Pillow
  
-### 4. MongoDB Query Optimization System with Machine Learning
-**Description**: This project is a machine learning-powered query optimization system designed to predict MongoDB query execution times and provide performance improvement suggestions. It analyzes queries based on factors like index usage, query length, and the number of documents examined or returned, helping users improve query efficiency through actionable recommendations.  
-
-- **Technologies Used**: 
-  - Python
-  - MongoDB
-  - PyMongo
-  - Scikit-learn
-- **Key Features**:
-  - Prediction of MongoDB query execution time using a trained machine learning model.
-  - Generation of performance improvement suggestions, such as adding indexes.
-  - Analysis of query metrics including query length, documents examined, and index usage.
-
 ## Installation
 
 1. Clone the repository:
