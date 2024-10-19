@@ -29,6 +29,23 @@ Welcome to my repository of Python projects! This repository showcases a collect
   - Tkinter
   - Pillow
  
+### 4. Face Detection-Based Live Attendance System Using OpenCV
+
+- **Introduction:**
+  - The Face Detection-Based Live Attendance System is an innovative application that utilizes facial recognition technology to automate attendance tracking. Developed in Python, this application leverages OpenCV and the face_recognition library to identify individuals in real-time using a webcam feed. The system allows for easy registration of new faces and automatic attendance logging.
+
+- **Features and Technologies:**
+  - Real-Time Face Recognition: Identifies and recognizes registered faces using a live webcam feed.
+  - Automatic Attendance Logging: Records attendance in a CSV file with timestamps for each recognized individual.
+  - Face Registration: Users can capture and register new faces by providing names and saving images.
+  - Dynamic Display of Names: Recognized names are displayed in real-time beneath the corresponding face.
+  - Persistent Name Display: Maintains the name display for a set duration after the face leaves the frame.
+  - Technologies Used
+  - Python: The primary programming language used for developing the application.
+  - OpenCV: A powerful library for computer vision tasks, used for real-time video processing and face detection.
+  - face_recognition: A Python library built on top of dlib's state-of-the-art face recognition technology, used for identifying and recognizing faces.
+  - Tkinter: The standard GUI toolkit for Python, utilized for creating the graphical user interface.
+ 
 ## Installation
 
 1. Clone the repository:
