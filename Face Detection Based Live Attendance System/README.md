@@ -29,7 +29,7 @@ pip install opencv-python numpy face_recognition tkinter
 1. **Clone the repository**:
 
    ```
-   git clone https://github.com/yourusername/Face-recognition-Attendance-System.git
+   git clone https://github.com/vaibhavr54/Face-recognition-Attendance-System.git
    cd Face-recognition-Attendance-System
    ```
 
