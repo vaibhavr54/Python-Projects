@@ -45,7 +45,30 @@ Welcome to my repository of Python projects! This repository showcases a collect
   - OpenCV: A powerful library for computer vision tasks, used for real-time video processing and face detection.
   - face_recognition: A Python library built on top of dlib's state-of-the-art face recognition technology, used for identifying and recognizing faces.
   - Tkinter: The standard GUI toolkit for Python, utilized for creating the graphical user interface.
- 
+
+
+### 5. OMR Scanner and Test Grader Using OpenCV
+
+ - **Overview**
+
+     An automated **OMR Scanner and Test Grader** built with **OpenCV** to grade multiple-choice tests. It processes images of test sheets, recognizes marked answers, compares them to a predefined answer key, and      calculates the score.
+
+
+- 💡 **Features**
+
+  - **Real-Time Answer Detection**: Identifies marked answers.
+  - **Automated Grading**: Compares answers to the key and calculates the score.
+  - **Output**: Displays the score on the test sheet and saves the result.
+
+
+- 🛠️ Technologies
+
+  - **Python**
+  - **OpenCV**
+  - **imutils**
+  - **NumPy**
+
+
 ## Installation
 
 1. Clone the repository:
