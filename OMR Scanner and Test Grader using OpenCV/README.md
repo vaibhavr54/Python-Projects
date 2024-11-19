@@ -46,7 +46,7 @@ OMR-Scanner-and-Test-Grader/
 
 1. Clone the repository:
 
-   git clone https://github.com/vaivhavr54/OMR-Scanner-and-Test-Grader.git
+   git clone https://github.com/vaivhavr54/OMR Scanner and Test Grader using OpenCV.git
    cd OMR-Scanner-and-Test-Grader
 
 2. Install the required Python libraries:
