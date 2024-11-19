@@ -26,7 +26,7 @@ This project is a **Python-based Optical Mark Recognition (OMR) Scanner and Test
 ---
 
 ## 📂 Directory Structure
-
+```
 OMR-Scanner-and-Test-Grader/
 ├── images/                   # Input test sheet images
 │   ├── test_01.png           # Example input image
@@ -38,7 +38,7 @@ OMR-Scanner-and-Test-Grader/
 │   └── ...                   # Additional results
 ├── test_grader.py            # Main Python script
 └── README.md                 # Project documentation
-
+```
 
 ---
 
