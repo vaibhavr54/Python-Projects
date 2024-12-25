@@ -20,7 +20,7 @@ The Restaurant Management System is a GUI-based desktop application designed to 
 ## Installation
 1. Clone the repository:
    ```
-   git clone <repository-url>
+   git clone <https://github.com/vaibhavr54/Python-Projects.git>
    ```
 2. Navigate to the project directory:
    ```
