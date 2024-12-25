@@ -68,6 +68,23 @@ Welcome to my repository of Python projects! This repository showcases a collect
   - **imutils**
   - **NumPy**
 
+### 6. Restaurant Management System
+  The Restaurant Management System is a GUI-based desktop application designed to help restaurant owners manage orders and billing efficiently. This application provides an intuitive interface for adding food and drink items, calculating costs, generating bills, and saving or sending       bills via SMS.
+  
+ - **Technologies Used:**
+
+    - Python 3.x
+    - Tkinter (GUI development)
+    - Requests (API integration for SMS)
+
+ - **Features:**
+
+    - Menu Management with item selection and quantity input.
+    - Billing System with automatic cost calculation, including taxes and service charges.
+    - Bill Receipt generation with itemized breakdown.
+    - Save Bills locally as text files.
+    - Send Bills via SMS using Fast2SMS API.
+    - Built-in Calculator for additional calculations.
 
 ## Installation
 
